@@ -12,6 +12,9 @@ grid-template-columns: 1fr 1fr;
 grid-gap: 8px;
 margin-top: 16px;
 border-radius: 8px;
+:hover{
+    background-color: #ccc;
+}
 `
 
 export const Campo = styled.input`

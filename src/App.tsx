@@ -1,18 +1,27 @@
-import StiloGlobal, { Container } from "./styles"
-import BarraLateral from "./containers/BarraLateral"
-import ListaDeTarefas from "./containers/ListaDeTarefas"
 import { Provider } from "react-redux";
+import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import StiloGlobal, { Container } from "./styles"
 import store from './store'
+import Home from "./pages/Home";
 
 
 
 function App() {
+  const rotas = createBrowserRouter([
+    {
+      path: '/',
+      element: <Home/>
+    },
+    {
+      path: '/novo',
+      element: <h1>Noma tarefa</h1>
+    }
+  ])
   return (
    <Provider store={store}>
    <StiloGlobal/>
    <Container>
-    <BarraLateral/>
-    <ListaDeTarefas/>
+    <RouterProvider router={rotas}/>
    </Container>
    </Provider>
   );

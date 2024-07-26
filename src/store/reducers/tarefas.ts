@@ -25,7 +25,7 @@ const initialState: TarefasState ={
         {
             id: 3,
             descricao: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-            prioridade: enums.Prioridade.IMPORTANTE,
+            prioridade: enums.Prioridade.NOMARL,
             status: enums.Status.CONCLUIDA,
             titulo: 'Estudar BootStrap',
         },
