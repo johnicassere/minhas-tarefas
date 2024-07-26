@@ -56,3 +56,14 @@ npm install --save-dev @types/styled-components
 npm install --save react-redux @reduxjs/toolkit
 
 ```
+
+
+## Links úteis
+
+Para navegar no site sobre os caracteres especiais acesse o link
+[link](https://www.html.am/reference/html-special-characters.cfm.
+)
+
+Para navegar no site sobre CRFL acesse o link
+
+[link](https://developer.mozilla.org/en-US/docs/Glossary/CRLF)
