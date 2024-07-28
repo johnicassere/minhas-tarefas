@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import StiloGlobal, { Container } from "./styles"
 import store from './store'
 import Home from "./pages/Home";
+import Cadastro from "./pages/Cadastro";
 
 
 
@@ -14,7 +15,7 @@ function App() {
     },
     {
       path: '/novo',
-      element: <h1>Noma tarefa</h1>
+      element: <Cadastro/>
     }
   ])
   return (

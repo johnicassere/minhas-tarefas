@@ -17,12 +17,3 @@ border-radius: 8px;
 }
 `
 
-export const Campo = styled.input`
-padding: 8px;
-background-color: #fff;
-border-radius: 8px;
-font-weight: bold;
-color: #666;
-border-color: #666;
-width: 100%;
-`
