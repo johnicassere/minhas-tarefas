@@ -57,6 +57,8 @@ npm install --save react-redux @reduxjs/toolkit
 
 npm install --save react-router-dom
 
+npx eslint --fix.
+
 ```
 
 
